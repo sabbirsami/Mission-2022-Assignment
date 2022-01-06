@@ -41,15 +41,17 @@ body{
 .red_button {
     background-color: #FF5959;
     border: 0;
-    padding: 20px 50px;
+    padding: 18px 50px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
     color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins';
 }
 .header_content small {
     display: block;
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 23px;
     font-family: 'Poppins';
     font-weight: 300;
@@ -57,10 +59,20 @@ body{
 }
 .img-width{
     width: 40%;
+    position: relative;
+}
+.img_overlay{
+    width: 100%;
+    height: auto;
+    top: 170px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 .header_img img{
     width: 100%;
+    z-index: 1;
 }
 .header .header_img .person_img{
     position: relative;
@@ -134,6 +146,12 @@ body{
 .develop_area .develop_area_img img{
     width: 85%;
 }
+.develop_area_text {
+    width: 110%;
+}
+.develop_area_img {
+    margin: 0 0 0 142px;
+}
 .develop_area_text h1 {
     font-family: 'Poppins';
     font-size: 50px;
@@ -144,6 +162,7 @@ body{
     font-family: 'Poppins';
     font-size: 20px;
     color: #333333;
+    padding-right: 120px;
 }
 /* DEVELOP AREA END */
 
@@ -151,8 +170,8 @@ body{
 /* COMMUNITY AREA START */
 .community_area{
     display: flex;
-    width: 80%;
-    margin: 115px auto;
+    width: 70%;
+    margin: 140px auto;
     align-items: center;
 }
 .community_text_area {
