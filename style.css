@@ -26,7 +26,6 @@ body{
     border-left: 5px solid #ff5959;
     padding-left: 15px;
 }
-
 .header_content p {
     font-size: 30px;
     font-family: Poppins;
@@ -41,13 +40,14 @@ body{
 .red_button {
     background-color: #FF5959;
     border: 0;
-    padding: 18px 50px;
+    padding: 15px 50px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
     color: #ffffff;
     text-decoration: none;
     font-family: 'Poppins';
+    cursor: pointer;
 }
 .header_content small {
     display: block;
@@ -152,6 +152,11 @@ body{
 .develop_area_img {
     margin: 0 0 0 142px;
 }
+.develop_area .shapes img {
+    width: 70%;
+    margin-left: 68px;
+    margin-top: 550px;
+}
 .develop_area_text h1 {
     font-family: 'Poppins';
     font-size: 50px;
@@ -200,7 +205,7 @@ body{
     font-size: 60px;
     font-family: Poppins;
     color: #333333;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .contact_form{
     display: flex;
@@ -226,14 +231,14 @@ form {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #ff8d8d1a;
     border: 0;
     color: #000000;
     box-shadow: rgb(191 209 213) 0px 3px 10px 0px;
 }
 textarea {
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #ff8d8d1a;
     border: 0;
     color: #000000;
     box-shadow: rgb(191 209 213) 0px 3px 10px 0px;
@@ -290,6 +295,6 @@ footer .footer_area p{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    padding: 30px 0 50px 0;
+    padding: 10px 0 80px 0;
 }
 /* FOOTER AREA END */
